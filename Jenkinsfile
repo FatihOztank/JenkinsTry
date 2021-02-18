@@ -5,7 +5,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
-                sh 'sudo usermod -a -G docker jenkins'
+                //sh 'sudo usermod -a -G docker jenkins'
             }
         }
     }
